@@ -7,5 +7,5 @@ noddityConfig = { // Global
 	pathPrefix: '#!/',
 	pagePathPrefix: 'post/',
 	template: 'post',
-	debug: false
+	debug: true
 }
