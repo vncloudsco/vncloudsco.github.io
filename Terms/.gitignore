@@ -1,4 +1,2 @@
-_site
-.sass-cache
-Gemfile.lock
-*.gem
+js/build.js
+node_modules
