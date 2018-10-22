@@ -157,3 +157,19 @@ Dịch vụ này chúng tôi sẽ cấp cho quý khách các API để theo dõi
 
 Chúng tôi chỉ hỗ trợ quý khách theo dõi cũng như cảnh báo dịch vụ qua email hoặc điện thoại bằng tin nhắn sms
 
+IV: Quy trình bảo mật hệ thống cơ bản và nâng cao
+VNC cam kết thực hiện các quy trình bảo mật hệ thống trên hệ thống máy chủ của khách hàng như sau :
+Sử dụng mật khẩu khó đoán.
+Bảo mật thông tin đăng nhập Root trên giao diện quản lý hệ thống (cPanel/DirectAdmin , ..)
+Bảo mật phương thức đăng nhập hệ thống máy chủ thông qua SSH bằng SSH Key và chỉ có thể đăng nhập từ nguồn IP hệ thống VNC.
+Thiết lập Firewall trên hệ thống máy chủ quản lý các hình thức tấn công như: Brute force Password, DOS ICMP Flood, giới hạn số lượng truy cập, kiểm soát số lượng port mở trên hệ thống máy chủ,...
+Bảo mật hệ thống ở mức hạ tầng vật lý cùng sự hỗ trợ của phía DataCenter.
+Thiết lập quy trình Auditing File trên hệ thống nhằm đảm bảo giám sát các thay đổi trên hệ thống với : Tripwire, Aide,.. 
+Giám sát số lượng file xuất hiện trong source code của khách hàng mỗi ngày nhằm kiểm tra các file bị thay đổi hoặc bị upload lên có thuộc dạng tình nghi bị hack hay không,...
+Pentest website ở mức cơ bản
+Nhân viên quản trị hệ thống sẽ thực hiện định kỳ 1 tháng 1 lần việc Pentest kiểm tra lỗi bảo mật của site khách hàng 1 tháng 1 lần.
+Các hoạt động Pentest kiểm tra nằm ở mức cơ bản không chuyên sâu, không gây ảnh hưởng đến source code (Sử dụng kiểu Pentest "black box" để kiểm tra).
+Trách nhiệm khách hàng
+Nhằm đảm bảo việc theo dõi và quản trị máy chủ được thực hiện ở mức tối ưu nhất, phòng kỹ thuật VNC sẽ tiến hành thu hồi quyền quản trị ở cấp cao nhất và giới hạn một số quyền truy cập can thiệp vào cấu hình máy chủ.
+Tất cả các thao tác quản trị trên máy chủ sẽ được lưu trữ và bàn giao cho khách hàng khi có yêu cầu.
+Khách hàng cần phối hợp thông báo cho phòng kỹ thuật VNC khi thực hiện thay đổi nâng cấp mã nguồn website có thể ảnh hưởng tới hoạt động của website hoặc tới mức độ bảo mật của máy chủ.
